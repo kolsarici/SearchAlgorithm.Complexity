@@ -6,7 +6,7 @@ public static class ArrayExtension
     {
         foreach (var item in array)
         {
-            Console.Write($"{item}");
+            Console.Write($"{item} ");
         }
 
         Console.WriteLine(" ");

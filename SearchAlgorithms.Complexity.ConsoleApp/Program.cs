@@ -8,7 +8,14 @@ var arr1000 = ArrayHelper.Populate(1000);
 var arr10000 = ArrayHelper.Populate(10000);
 var arr100000 = ArrayHelper.Populate(100000);
 
+
+
 new InsertionSort().Calculate(arr100);
 new InsertionSort().Calculate(arr1000);
 new InsertionSort().Calculate(arr10000);
 new InsertionSort().Calculate(arr100000);
+
+new SelectionSort().Calculate(arr100);
+new SelectionSort().Calculate(arr1000);
+new SelectionSort().Calculate(arr10000);
+new SelectionSort().Calculate(arr100000);
