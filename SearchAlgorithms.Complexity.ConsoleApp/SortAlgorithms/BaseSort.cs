@@ -9,7 +9,6 @@ public abstract class BaseSort
     {
         //clone array before timer starts
         var cloneArray = (int[]) arr.Clone();
-        
         var timer = new Stopwatch();
         timer.Start();
         Sort(cloneArray);
